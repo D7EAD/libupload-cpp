@@ -32,8 +32,8 @@ Files can be uploaded very easily within programs. You can find an example below
 int main() {
   try {
     libupload lib(path_to_file);
-    libupload::response = lib.sendfile(API_ANONFILE);
-    std::cout << response.URL;
+    libupload::response res = lib.sendfile(API_ANONFILE);
+    std::cout << res.URL;
   }
   catch (luException &e) {
     std::cout << e.what();
