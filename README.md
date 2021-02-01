@@ -34,9 +34,12 @@ int main() {
   try {
     libupload lib(path_to_file);
     libupload::response res = lib.sendfile(API_ANONFILE);
-    std::cout << res.URL;
-  }
-  catch (luException &e) {
+    if (res.status) {
+      std::cout << res.URL;
+    } else {
+      std::cout << res.status;
+    }
+  } catch (luException &e) {
     std::cout << e.what();
   }
 }
