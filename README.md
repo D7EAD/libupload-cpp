@@ -31,7 +31,7 @@ Files can be uploaded very easily within programs. You can find an example below
 ...
 int main() {
   try {
-    libuplaod lib(path_to_file);
+    libupload lib(path_to_file);
     libupload::response = lib.sendfile(API_ANONFILE);
     std::cout << response.URL;
   }
