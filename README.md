@@ -5,6 +5,7 @@ libupload-cpp is a C++20 library that allows users to seamlessly upload files to
 <br><br>
 
 <h1>Dependencies</h1>
+Dependencies used for developing libupload-cpp were integrated via vcpkg.
 <ul>
   <li>cURL: for CPR.</li>
   <li>CPR: used as a cURL wrapper to make requests easier.</li>
