@@ -1,7 +1,7 @@
 <h1 align="center">libupload-cpp</h1></center>
 <p align="center">A C++ library to upload files--easily.</p>
 <hr>
-libupload-cpp is a C++ library that allows users to seamlessly upload files to remote upload sites within their programs without having to deal with all the HTTP(S) nonsense.
+libupload-cpp is a C++20 library that allows users to seamlessly upload files to remote upload sites within their programs without having to deal with all the HTTP(S) nonsense.
 <br><br>
 
 <h1>Dependencies</h1>
