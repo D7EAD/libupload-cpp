@@ -31,7 +31,7 @@ int main() {
 }
 ```
 
-<br><br>
+<br>
 
 ```
 Output:
