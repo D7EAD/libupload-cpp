@@ -3,6 +3,16 @@
 <hr>
 libupload-cpp is a C++ library that allows users to seamlessly upload files to remote upload sites within their programs without having to deal with all the HTTP(S) nonsense.
 <br><br>
+
+<h1>Dependencies</h1>
+<ul>
+  <li>cURL: for CPR.</li>
+  <li>CPR: used as a cURL wrapper to make requests easier.</li>
+  <li>OpenSSL: for SSL/TLS requests.</li>
+  <li>nlohmann-json: for parsing and extracting JSON values from requests.</li>
+</ul>
+
+<br><br>
 As of now, there are only three APIs in libupload-cpp--AnonFile, BayFiles, and File.io. Their identifiers can be found below:
 
 ```
