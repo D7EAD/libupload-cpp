@@ -18,9 +18,9 @@ As of now, there are only three APIs in libupload-cpp--AnonFile, BayFiles, and F
 
 ```
 enum api_identifiers {
-  API_ANONFILE = 0x0
-  API_BAYFILES = 0x1
-  API_FILE_IO = 0x2
+  API_ANONFILE = 0x1
+  API_BAYFILES = 0x2
+  API_FILE_IO = 0x3
 };
 ```
 
